@@ -21,6 +21,7 @@
             <li><a href="#home">Início</a></li>
             <li><a href="#roupas">Roupas</a></li>
             <li><a href="#tenis">Tênis</a></li>
+            <li><a href="#acessorios">Acessórios</a></li>
             <li><a href="cadastro.html" class="nav-auth-link">Cadastre-se</a></li>
         </ul>
         <div class="cart-icon" id="cart-icon-btn">
@@ -41,7 +42,10 @@
             <h1>Descubra o Seu Estilo</h1>
             <p>A nova coleção primavera-verão chegou. Encontre roupas e tênis com designs exclusivos, modernos e com um
                 conforto inigualável.</p>
-            <button class="cta-button">Ver Coleção</button>
+            <div class="hero-buttons">
+                <button class="cta-button" onclick="location.href='#roupas'">Ver Roupas</button>
+                <button class="cta-button secondary" onclick="location.href='#tenis'">Ver Tênis</button>
+            </div>
         </div>
     </header>
 
@@ -65,6 +69,17 @@
                 <div class="title-underline"></div>
             </div>
             <div class="product-grid" id="shoes-grid">
+                <!-- Preenchido via JavaScript -->
+            </div>
+        </section>
+
+        <!-- Acessórios -->
+        <section class="products" id="acessorios">
+            <div class="section-title">
+                <h2>Acessórios & Colecionáveis</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="product-grid" id="accessories-grid">
                 <!-- Preenchido via JavaScript -->
             </div>
         </section>

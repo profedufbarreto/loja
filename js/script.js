@@ -4,6 +4,7 @@ const svgShoe = `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"
 
 // Base de Dados Simulada
 const products = [
+    // Roupas (10 itens)
     {
         id: 1,
         title: "Camiseta Nike Sportswear Club",
@@ -16,35 +17,205 @@ const products = [
         title: "Jaqueta Adidas Originals Firebird",
         price: 349.90,
         category: "roupas",
-        image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1518331191131-b8f2f2ac373f?auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 3,
-        title: "Moletom Nike Essential",
-        price: 229.90,
+        title: "Moletom Nike Essential Hoodie",
+        price: 279.90,
         category: "roupas",
         image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 4,
+        title: "Camiseta Puma Graphic Tee",
+        price: 99.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 5,
+        title: "Calça Jogger Under Armour Sport",
+        price: 199.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 6,
+        title: "Jaqueta Corta-Vento New Balance",
+        price: 299.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 7,
+        title: "Shorts Nike Flex Stride",
+        price: 139.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 8,
+        title: "Camisa Polo Lacoste Classic",
+        price: 489.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 9,
+        title: "Jaqueta Adidas Windbreaker",
+        price: 389.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 10,
+        title: "Calça Cargo Nike ACG",
+        price: 459.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=500&q=80"
+    },
+    // Tênis (10 itens)
+    {
+        id: 11,
         title: "Tênis Nike Air Force 1 '07",
         price: 799.90,
         category: "tenis",
         image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=500&q=80"
     },
     {
-        id: 5,
-        title: "Tênis Adidas Ultraboost",
-        price: 999.90,
+        id: 12,
+        title: "Tênis Adidas Ultraboost 2X",
+        price: 1099.90,
         category: "tenis",
         image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=500&q=80"
     },
     {
-        id: 6,
-        title: "Tênis Nike Air Max 90",
+        id: 13,
+        title: "Tênis Nike Air Max 90 Premium",
         price: 899.90,
         category: "tenis",
         image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 14,
+        title: "Tênis Puma RS-X Reinvention",
+        price: 599.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 15,
+        title: "Tênis New Balance 574 Classic",
+        price: 649.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 16,
+        title: "Tênis Vans Old Skool Canvas",
+        price: 369.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 17,
+        title: "Tênis Converse All Star Lift",
+        price: 329.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1491553895911-39e44ff6db1c?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 18,
+        title: "Tênis Mizuno Wave Prophecy",
+        price: 1599.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1592398539780-6060c57173e6?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 19,
+        title: "Tênis Fila Disruptor II",
+        price: 449.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1628149422851-40997f3d4929?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 20,
+        title: "Tênis Jordan High Retro",
+        price: 1299.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?auto=format&fit=crop&w=500&q=80"
+    },
+    // Acessórios (10 itens)
+    {
+        id: 21,
+        title: "Boné Nike Heritage 86",
+        price: 129.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 22,
+        title: "Touca Adidas Originals Beanie",
+        price: 89.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1576871337622-98d48d766e27?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 23,
+        title: "Boné New Era NY Yankees 59Fifty",
+        price: 199.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 24,
+        title: "Mochila Nike Hayward",
+        price: 259.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 25,
+        title: "Relógio Casio G-Shock Rugged",
+        price: 749.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1622434641406-a15812345ad1?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 26,
+        title: "Boné Puma Metal Cat",
+        price: 99.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 27,
+        title: "Touca Carhartt WIP Watch",
+        price: 149.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1618354691792-d1d42acfd860?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 28,
+        title: "Meias Nike Crew 3-Pack",
+        price: 79.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1582966298601-8314bc39704e?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 29,
+        title: "Óculos de Sol Ray-Ban Clubmaster",
+        price: 899.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 30,
+        title: "Pochete Adidas Trefoil",
+        price: 159.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1622560480605-d0342629f170?auto=format&fit=crop&w=500&q=80"
     }
 ];
 
@@ -61,6 +232,7 @@ const formatPrice = (value) => {
 const renderProducts = () => {
     const clothingGrid = document.getElementById('clothing-grid');
     const shoesGrid = document.getElementById('shoes-grid');
+    const accessoriesGrid = document.getElementById('accessories-grid');
 
     const generateCardHTML = (product) => `
         <div class="product-card" id="product-${product.id}">
@@ -68,7 +240,7 @@ const renderProducts = () => {
                 <img src="${product.image}" alt="${product.title}" class="product-image">
             </div>
             <div class="product-info">
-                <div class="product-category">${product.category === 'roupas' ? 'Vestuário' : 'Calçado'}</div>
+                <div class="product-category">${getCategoryLabel(product.category)}</div>
                 <h3 class="product-title">${product.title}</h3>
                 <div class="product-price">${formatPrice(product.price)}</div>
                 <button class="add-to-cart" onclick="addToCart(${product.id})">
@@ -79,11 +251,22 @@ const renderProducts = () => {
         </div>
     `;
 
+    const getCategoryLabel = (cat) => {
+        switch(cat) {
+            case 'roupas': return 'Vestuário';
+            case 'tenis': return 'Calçados';
+            case 'acessorios': return 'Acessórios';
+            default: return 'Geral';
+        }
+    };
+
     const clothesHTML = products.filter(p => p.category === 'roupas').map(generateCardHTML).join('');
     const shoesHTML = products.filter(p => p.category === 'tenis').map(generateCardHTML).join('');
+    const accessoriesHTML = products.filter(p => p.category === 'acessorios').map(generateCardHTML).join('');
 
     if (clothingGrid) clothingGrid.innerHTML = clothesHTML;
     if (shoesGrid) shoesGrid.innerHTML = shoesHTML;
+    if (accessoriesGrid) accessoriesGrid.innerHTML = accessoriesHTML;
 };
 
 // Função Global para Add Carrinho (Acessível pelos botões inline gerados no HTML)
