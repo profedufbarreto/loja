@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxeStore | Moda & Tênis</title>
+    <!-- Adicionando fontes modernas do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Link para o CSS separado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Barra de Navegação Superior -->
+    <nav class="navbar">
+        <div class="logo">LUXE<span>STORE</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#roupas">Roupas</a></li>
+            <li><a href="#tenis">Tênis</a></li>
+        </ul>
+        <div class="cart-icon" id="cart-icon-btn">
+            <!-- Ícone SVG de Carrinho -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+            <span id="cart-count">0</span>
+        </div>
+    </nav>
+
+    <!-- Seção de Destaque (Hero) -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1>Descubra o Seu Estilo</h1>
+            <p>A nova coleção primavera-verão chegou. Encontre roupas e tênis com designs exclusivos, modernos e com um
+                conforto inigualável.</p>
+            <button class="cta-button">Ver Coleção</button>
+        </div>
+    </header>
+
+    <!-- Lista de Produtos -->
+    <main>
+        <!-- Roupas -->
+        <section class="products" id="roupas">
+            <div class="section-title">
+                <h2>Roupas em Destaque</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="product-grid" id="clothing-grid">
+                <!-- Preenchido via JavaScript -->
+            </div>
+        </section>
+
+        <!-- Tênis -->
+        <section class="products" id="tenis">
+            <div class="section-title">
+                <h2>Lançamentos de Tênis</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="product-grid" id="shoes-grid">
+                <!-- Preenchido via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 LuxeStore. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Overlay e Sidebar do Carrinho -->
+    <div class="cart-overlay" id="cart-overlay">
+        <div class="cart-sidebar">
+            <div class="cart-header">
+                <h3>Seu Carrinho</h3>
+                <button class="close-cart" id="close-cart">&times;</button>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <!-- Itens serão adicionados aqui via JS -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">Total: <span id="total-price">R$ 0,00</span></div>
+                <button class="checkout-button">Finalizar Compra</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link para o JavaScript separado -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
