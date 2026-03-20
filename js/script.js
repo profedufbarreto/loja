@@ -17,7 +17,7 @@ const products = [
         title: "Jaqueta Adidas Originals Firebird",
         price: 349.90,
         category: "roupas",
-        image: "https://images.unsplash.com/photo-1518331191131-b8f2f2ac373f?auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 3,
@@ -75,6 +75,111 @@ const products = [
         category: "roupas",
         image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=500&q=80"
     },
+    {
+        id: 31,
+        title: "Camiseta Oversized Minimal",
+        price: 129.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 32,
+        title: "Calça de Sarja Chino",
+        price: 189.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1473966968600-fa804b86827b?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 33,
+        title: "Jaqueta Jeans Vintage",
+        price: 259.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-15162579848b2-77135e57939b?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 34,
+        title: "Bermuda Surf Performance",
+        price: 119.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 35,
+        title: "Regata Basket Pro",
+        price: 89.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1515468381879-40d0ded81044?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 36,
+        title: "Casaco de Lã Premium",
+        price: 399.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 37,
+        title: "Camisa de Linho Verão",
+        price: 179.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1598032895625-809d6c5dde55?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 38,
+        title: "Calça Social Slim Fit",
+        price: 229.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 39,
+        title: "Jaqueta Bomber Suede",
+        price: 349.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 40,
+        title: "Moletom Canguru Basic",
+        price: 159.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 41,
+        title: "Camiseta Estampa Retrô",
+        price: 95.00,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 42,
+        title: "Calça Legging High Tech",
+        price: 149.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1583454110551-21f2fa2ec617?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 43,
+        title: "Top Fitness Impact",
+        price: 79.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 44,
+        title: "Jaqueta Puffer Winter",
+        price: 459.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 45,
+        title: "Shorts de Corrida Aero",
+        price: 109.90,
+        category: "roupas",
+        image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=500&q=80"
+    },
     // Tênis (10 itens)
     {
         id: 11,
@@ -123,21 +228,21 @@ const products = [
         title: "Tênis Converse All Star Lift",
         price: 329.90,
         category: "tenis",
-        image: "https://images.unsplash.com/photo-1491553895911-39e44ff6db1c?auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1460353581283-fbd1adcbe356?auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 18,
         title: "Tênis Mizuno Wave Prophecy",
         price: 1599.90,
         category: "tenis",
-        image: "https://images.unsplash.com/photo-1592398539780-6060c57173e6?auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1562183241-b937e95585b6?auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 19,
         title: "Tênis Fila Disruptor II",
         price: 449.90,
         category: "tenis",
-        image: "https://images.unsplash.com/photo-1628149422851-40997f3d4929?auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1549488344110-31518b0fa5a5?auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 20,
@@ -145,6 +250,111 @@ const products = [
         price: 1299.90,
         category: "tenis",
         image: "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 46,
+        title: "Tênis Nike Dunk Low",
+        price: 899.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 47,
+        title: "Tênis Adidas Forum Low",
+        price: 699.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 48,
+        title: "Tênis New Balance 327",
+        price: 599.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 49,
+        title: "Tênis Puma Suede Classic",
+        price: 449.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 50,
+        title: "Tênis Reebok Club C 85",
+        price: 499.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 51,
+        title: "Tênis Asics Gel-Lyte III",
+        price: 649.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 52,
+        title: "Tênis Vans Sk8-Hi",
+        price: 429.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 53,
+        title: "Tênis Converse Chuck 70",
+        price: 399.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1491553895911-39e44ff6db1c?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 54,
+        title: "Tênis Oakley Flak 365",
+        price: 799.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 55,
+        title: "Tênis Fila Ray Tracer",
+        price: 389.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1628149422851-40997f3d4929?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 56,
+        title: "Tênis Adidas NMD R1",
+        price: 899.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 57,
+        title: "Tênis Nike Pegasus 40",
+        price: 749.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 58,
+        title: "Tênis Under Armour Hovr",
+        price: 699.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 59,
+        title: "Tênis Skechers Go Walk",
+        price: 349.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 60,
+        title: "Tênis Brooks Ghost 15",
+        price: 849.90,
+        category: "tenis",
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80"
     },
     // Acessórios (10 itens)
     {
@@ -201,7 +411,7 @@ const products = [
         title: "Meias Nike Crew 3-Pack",
         price: 79.90,
         category: "acessorios",
-        image: "https://images.unsplash.com/photo-1582966298601-8314bc39704e?auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1542332213-31ed4ec5b93d?auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 29,
@@ -215,7 +425,112 @@ const products = [
         title: "Pochete Adidas Trefoil",
         price: 159.90,
         category: "acessorios",
-        image: "https://images.unsplash.com/photo-1622560480605-d0342629f170?auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1601390978821-274112693899?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 61,
+        title: "Relógio Smartwatch Pro",
+        price: 1299.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 62,
+        title: "Fone Bluetooth Noise Cancelling",
+        price: 899.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 63,
+        title: "Carteira de Couro Slim",
+        price: 149.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 64,
+        title: "Cinto de Couro Elegance",
+        price: 119.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1617137934032-28a5f61c311c?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 65,
+        title: "Óculos de Sol Wayfarer",
+        price: 749.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 66,
+        title: "Luvas de Treino Grip",
+        price: 89.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1543459176-65fe271333be?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 67,
+        title: "Garrafa Térmica Sport",
+        price: 129.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 68,
+        title: "Mala de Viagem Executiva",
+        price: 499.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 69,
+        title: "Kit de Meias Performance",
+        price: 69.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1542332213-31ed4ec5b93d?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 70,
+        title: "Boné Snapback Limited",
+        price: 159.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 71,
+        title: "Cachecol de Lã Soft",
+        price: 119.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 72,
+        title: "Pulseira de Prata Urban",
+        price: 249.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 73,
+        title: "Anel de Aço Escovado",
+        price: 89.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 74,
+        title: "Colar Pingente Minimal",
+        price: 129.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1515562141535-d02bc2eb1ae6?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 75,
+        title: "Guarda-chuva Automático",
+        price: 99.90,
+        category: "acessorios",
+        image: "https://images.unsplash.com/photo-1531317510488-2ff7736e3b2c?auto=format&fit=crop&w=500&q=80"
     }
 ];
 
